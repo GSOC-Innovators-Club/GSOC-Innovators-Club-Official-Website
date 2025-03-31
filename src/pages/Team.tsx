@@ -6,7 +6,7 @@ export const Team = () => {
     {
       name: "Ankur Prajapati",
       role: "Club Coordinator",
-      image: "../../public/Ankur Prajapati.jpg",
+      image: "/Ankur Prajapati.jpg",
       bio: "Aspiring Tech Founder",
       linkedin: "https://www.linkedin.com/in/ankur-prajapati-a38b5a251/",
     },
@@ -21,7 +21,7 @@ export const Team = () => {
         lead: {
           name: "Harsh Jain",
           role: "Technical Team Lead",
-          image: "../../public/Technical Team/Harsh Jain.jpeg",
+          image: "/Technical Team/Harsh Jain.jpeg",
           bio: "Backend Developer || promise I am not tech support",
           github: "https://github.com/Hj-codes",
           linkedin: "https://www.linkedin.com/in/hjworks17/",
@@ -31,13 +31,13 @@ export const Team = () => {
         {
           name: "Utkarsh Jha",
           role: "Technical Team Member",
-          image: "../../public/Technical Team/UTKARSH JHA - TECH TEAM.png",
+          image: "/Technical Team/UTKARSH JHA - TECH TEAM.png",
         },
         members: [
           {
             name: "Bindupautra Jyotibrat",
             role: "Technical Team Member",
-            image: "../../public/Technical Team/Bindupautra Jyotibrat.jpg",
+            image: "/Technical Team/Bindupautra Jyotibrat.jpg",
             bio: "AI & ML Enthusiast",
             github: "https://github.com/jyotibrat",
             linkedin: "https://linkedin.com/in/jyotibrat"
@@ -45,43 +45,43 @@ export const Team = () => {
             {
           name: "Tushar Kumar Gupta",
           role: "Technical Team Member",
-          image: "../../public/Technical Team/TUSHAR KUMAR GUPTA - TECH TEAM.png",
+          image: "/Technical Team/TUSHAR KUMAR GUPTA - TECH TEAM.png",
           },
           
           {
             name: "Vishal Kumar Ojha",
             role: "Technical Team Member",
-            image: "../../public/Technical Team/VISHAL - TECH TEAM.png",
+            image: "/Technical Team/VISHAL - TECH TEAM.png",
           },
           {
             name: "Omkar Sahay",
             role: "Technical Team Member",
-            image: "../../public/Technical Team/OMKAR TECH TEAM.png",
+            image: "/Technical Team/OMKAR TECH TEAM.png",
           },
           {
             name: "Sourabh Joshi",
             role: "Technical Team Member",
-            image: "../../public/Technical Team/SOURBH - JOSHI - TECH TEA.png",
+            image: "/Technical Team/SOURBH - JOSHI - TECH TEA.png",
           },
           {
             name: "Shreyash Satadeve",
             role: "Technical Team Member",
-            image: "../../public/Technical Team/SHREYASH SATA- TECH TEAM.png",
+            image: "/Technical Team/SHREYASH SATA- TECH TEAM.png",
           },
           {
             name: "Adhiraj Singh Rawat",
             role: "Technical Team Member",
-            image: "../../public/Technical Team/ADHIRAJ - TECH TEAM.png",
+            image: "/Technical Team/ADHIRAJ - TECH TEAM.png",
           },
           {
             name: "Anshika Garg",
             role: "Technical Team Member",
-            image: "../../public/Technical Team/ANSHIKA - TECH TEAM.png",
+            image: "/Technical Team/ANSHIKA - TECH TEAM.png",
           },
           {
             name: "Harshit Raj Ratan Singh",
             role: "Technical Team Member",
-            image: "../../public/Technical Team/HARSHIT - TECH TEAM.png",
+            image: "/Technical Team/HARSHIT - TECH TEAM.png",
           }
         ]
       }
@@ -93,7 +93,7 @@ export const Team = () => {
         lead: {
           name: "Shashwat Roy",
           role: "Photography Lead",
-          image: "../../public/Photography Team/SHASHWAT ROY.png",
+          image: "/Photography Team/SHASHWAT ROY.png",
           bio: "Pixel perfectionist",
           github: "https://github.com/shashwat",
           linkedin: "https://www.linkedin.com/in/shashwat-roy-955308315/",
@@ -102,7 +102,7 @@ export const Team = () => {
         coLead: {
           name: "Yash Goyal",
           role: "Photography Team Member",
-          image: "../../public/Photography Team/YASH GOYAL.png",
+          image: "/Photography Team/YASH GOYAL.png",
           bio: "Passionate photographer capturing moments that tell a story.",
           linkedin: "https://www.linkedin.com/in/yash-goyal-786723333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           instagram: "https://www.instagram.com/clicks_for_memories_?igsh=enR3aW9yeW1xOXRx"
@@ -117,7 +117,7 @@ export const Team = () => {
         lead: {
           name: "Himanshu Gupta",
           role: "Event Management Team Lead",
-          image: "../../public/Event Management Team/Himanshu Gupta.jpg",
+          image: "/Event Management Team/Himanshu Gupta.jpg",
           bio: "Creating unforgettable experiences!",
           github: "https://github.com/HimanshuO2",
           linkedin: "https://www.linkedin.com/in/himanshyou/",
@@ -126,19 +126,19 @@ export const Team = () => {
         coLead: {
           name: "Shraddha Sinha",
           role: "Event Management Team Co-Lead",
-          image: "../../public/Event Management Team/Shraddha Sinha 1- EVENT MANGEMENT.png",
+          image: "/Event Management Team/Shraddha Sinha 1- EVENT MANGEMENT.png",
           bio: "CSE student",
         },
           members: [
           {
             name: "Apoorva Singh",
             role: "Events Management Team Co-Lead",
-            image: "../../public/Event Management Team/Apoorva Singh - EVENT MANGEMENT.png",
+            image: "/Event Management Team/Apoorva Singh - EVENT MANGEMENT.png",
           },
           {
             name: "Diya Tanwani",
             role: "Event Management Member",
-            image: "../../public/Event Management Team/Diya tanwani - event mangement.png",
+            image: "/Event Management Team/Diya tanwani - event mangement.png",
             bio: "Persistence beats talent",
             github: "https://github.com/DiyaTanwani",
             linkedin: "https://www.linkedin.com/in/diya-tanwani-894414328/",
@@ -147,19 +147,19 @@ export const Team = () => {
           {
             name: "Venya Rajput",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/Venya Rajput  - EVENT MANGEMENT.png",
+            image: "/Event Management Team/Venya Rajput  - EVENT MANGEMENT.png",
             bio: "AI & ML Developer",
             instagram: "https://www.instagram.com/_venyarajput_?igsh=YzM3MWg1dGc4cjVr"
           },
           {
             name: "Shivang Upadhyay",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/SHIVANG UPADHYAY- 24MIM10082.png",
+            image: "/Event Management Team/SHIVANG UPADHYAY- 24MIM10082.png",
           },
           {
             name: "Shreya Raj",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/Shreya Raj.png",
+            image: "/Event Management Team/Shreya Raj.png",
             bio: "Web Developer",
             linkedin: "https://www.linkedin.com/in/shreya-raj-9313b0284/",
             instagram: "https://www.instagram.com/shrey_aa.25?igsh=MWw5Y2dhbHNzcXZvbw=="
@@ -167,22 +167,22 @@ export const Team = () => {
           {
             name: "Rishi Dewangan",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/RISHI DEWANGAN - 24BAI10811.png",
+            image: "/Event Management Team/RISHI DEWANGAN - 24BAI10811.png",
           },
           {
             name: "Vidushi Chhajed",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/Vidushi Chhajed-1- EVENT MANAGEMENT.png",
+            image: "/Event Management Team/Vidushi Chhajed-1- EVENT MANAGEMENT.png",
           },
           {
             name: "Ananya Sharma",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/ANANYA SHARMA - EVENT MANGEMENT.png",
+            image: "/Event Management Team/ANANYA SHARMA - EVENT MANGEMENT.png",
           },
           {
             name: "Pranjali Verma",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/Pranjali Verma- event managent.png",
+            image: "/Event Management Team/Pranjali Verma- event managent.png",
             bio: "Aspiring Software Developer with expertise in Java, Web Development, and AI.",
             github: "https://github.com/Pranjali2331",
             linkedin: "https://www.linkedin.com/in/pranjali-verma-567637251/",
@@ -191,23 +191,23 @@ export const Team = () => {
           {
             name: "Abhinav Kumar Mishra",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/Abhinav Kumar Mishra - EVENT MANGEMENT.png",
+            image: "/Event Management Team/Abhinav Kumar Mishra - EVENT MANGEMENT.png",
           },
           {
             name: "Rishi Jha",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/Rishi Jha-1- EVENT MANGEMENT.png",
+            image: "/Event Management Team/Rishi Jha-1- EVENT MANGEMENT.png",
           },
           {
             name: "Shreya Sharma",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/Shreya Sharma - 1- EVENT MANGEMENT.png",
+            image: "/Event Management Team/Shreya Sharma - 1- EVENT MANGEMENT.png",
             bio: "Software Developer",
           },
           {
             name: "Adhya Sparsh",
             role: "Event Management Team Member",
-            image: "../../public/Event Management Team/Adhya Sparsh- event management.png",
+            image: "/Event Management Team/Adhya Sparsh- event management.png",
             bio: "Tech Enthusiast & Innovative Problem Solver",
           }
         ]
@@ -220,23 +220,23 @@ export const Team = () => {
         lead: {
           name: "Vaidehi Gupta",
           role: "Content Team Lead",
-          image: "../../public/Content Team/Vaidehi Gupta CONTENT TEAM.png",
+          image: "/Content Team/Vaidehi Gupta CONTENT TEAM.png",
         },
         coLead: {
           name: "Saanvi",
           role: "Content Team Co-Lead",
-          image: "../../public/Content Team/SAANVI - CONTENT.png",
+          image: "/Content Team/SAANVI - CONTENT.png",
         },
         members: [
           {
             name: "Shreya Gupta",
             role: "Content Team Member",
-            image: "../../public/Content Team/SHREYA GUPTA - CONTENT TTEAM.png",
+            image: "/Content Team/SHREYA GUPTA - CONTENT TTEAM.png",
           },
           {
             name: "Shreya Prakash",
             role: "Content Team Member",
-            image: "../../public/Content Team/SHREYA PRAKSH - CONTENT TEAM.png",
+            image: "/Content Team/SHREYA PRAKSH - CONTENT TEAM.png",
           }
         ]
       }
@@ -248,12 +248,12 @@ export const Team = () => {
         lead: {
           name: "Tejas Tandon",
           role: "Finance Team Lead",
-          image: "../../public/Finance Team/TEJAS TANDON.png",
+          image: "/Finance Team/TEJAS TANDON.png",
         },
         coLead: {
           name: "Mishti Singh",
           role: "Finance Team Co-Lead",
-          image: "../../public/Finance Team/Mishti Singh.png",
+          image: "/Finance Team/Mishti Singh.png",
           bio: "Tech Fanatic. Learning, building, and embracing the challenges.",
           github: "https://github.com/mishti",
           linkedin: "https://www.linkedin.com/in/mishti-singh-7b3a3b332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -263,7 +263,7 @@ export const Team = () => {
           {
             name: "Trisha Kapoor",
             role: "Finance Team Member",
-            image: "../../public/Finance Team/TRISHA KAPOOR.png",
+            image: "/Finance Team/TRISHA KAPOOR.png",
             bio: "Aspiring AI Engineer",
           }
         ]
@@ -276,12 +276,12 @@ export const Team = () => {
         lead: {
           name: "Raunit Kumar",
           role: "Social Media and Design Team Lead",
-          image: "../../public/Social Media and Design Team/RAUNIT.png",
+          image: "/Social Media and Design Team/RAUNIT.png",
         },
         coLead: {
           name: "Ashish Raj",
           role: "Social Media and Design Team Co-Lead",
-          image: "../../public/Social Media and Design Team/ASHISH.png",
+          image: "/Social Media and Design Team/ASHISH.png",
           bio: "Website Design and Development",
           linkedin: "https://www.linkedin.com/in/ashish-raj-504760319/"
         },
@@ -289,7 +289,7 @@ export const Team = () => {
           {
             name: "Vaishnavi Singh",
             role: "Social Media and Design Team Member",
-            image: "../../public/Social Media and Design Team/VAISHNAVI.png",
+            image: "/Social Media and Design Team/VAISHNAVI.png",
           }
         ]
       }
@@ -301,12 +301,12 @@ export const Team = () => {
         lead: {
           name: "Aarushi Saki",
           role: "PR & Outreach Team Lead",
-          image: "../../public/PR and Outreach Team/AARUSHI SAKI.png",
+          image: "/PR and Outreach Team/AARUSHI SAKI.png",
         },
         coLead: {
           name: "Deepesh Kabra",
           role: "PR & Outreach Team Co-Lead",
-          image: "../../public/PR and Outreach Team/DEEPESH.png",
+          image: "/PR and Outreach Team/DEEPESH.png",
           bio: "Constantly growing, endlessly curious.",
           github: "https://github.com/Deepeshkabra",
           linkedin: "https://www.linkedin.com/in/deepesh-kabra-0aa027252/",
@@ -316,12 +316,12 @@ export const Team = () => {
           {
             name: "Ritu Raj Singh",
             role: "PR & Outreach Team Member",
-            image: "../../public/PR and Outreach Team/RITU RAJ SINGH.png",
+            image: "/PR and Outreach Team/RITU RAJ SINGH.png",
           },
           {
             name: "Saara Magar",
             role: "PR & Outreach Team Member",
-            image: "../../public/PR and Outreach Team/SAARA MAGAR.png",
+            image: "/PR and Outreach Team/SAARA MAGAR.png",
           }
         ]
       }

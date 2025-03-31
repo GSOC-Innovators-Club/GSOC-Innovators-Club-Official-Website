@@ -30,7 +30,7 @@ export const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <img 
-                src="../../../public/Assets/Logos/GSOC Innovators Club Website.png"
+                src="../../../public/Logos/GSOC Innovators Club Website.png"
                 alt="GSOC Innovators Club Logo"
                 className="w-12 h-12 rounded-full"
               />
@@ -93,7 +93,7 @@ export const Navbar = () => {
             {/* Right Logo */}
             <div className="ml-4 flex items-center">
               <img 
-                src="../../../public/Assets/Logos/VITB logo.png" // Replace with your actual logo path
+                src="../../../public/Logos/VITB logo.png" // Replace with your actual logo path
                 alt="Additional Logo"
                 className="w-15 h-14 full" // Adjust size as needed
               />
@@ -155,7 +155,7 @@ export const Navbar = () => {
               {/* Mobile Right Logo - Optional if you want it to appear in mobile view */}
               <div className="border-t border-gray-200 mt-2 pt-2 flex justify-center">
                 <img 
-                  src="../../../public/Assets/Logos/VITB logo.png" // Same as above
+                  src="../../../public/Logos/VITB logo.png" // Same as above
                   alt="VITB Logo"
                   className="w-15 h-14 rounded-full"
                 />

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-google-sans text-gray-800 antialiased;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-4 py-2 rounded-full transition-colors duration-200 hover:bg-gray-100 text-gray-700 hover:text-google-blue;
+  }
+
+  .nav-link.active {
+    @apply bg-google-blue bg-opacity-10 text-google-blue;
+  }
+
+  .btn-primary {
+    @apply bg-google-blue text-white px-6 py-2 rounded-full hover:shadow-google-hover transition-shadow duration-300 font-medium;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-google hover:shadow-google-hover transition-shadow duration-300;
+  }
+
+  .feature-icon {
+    @apply w-8 h-8 transition-colors duration-500;
+  }
+
+  .feature-icon-container {
+    @apply w-16 h-16 rounded-2xl flex items-center justify-center mb-6 transition-colors duration-500;
+  }
+
+  .feature-card:hover .feature-icon {
+    @apply text-white;
+  }
+}
+
+/* Page Transitions */
+.page-transition-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.page-transition-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s, transform 0.3s;
+}

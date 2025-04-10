@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Code2, Calendar, Instagram, Megaphone, Palette, Camera, Users, DollarSign, Share2, MessageSquare } from 'lucide-react';
+import { Github, Linkedin, Code2, Calendar, Instagram, Megaphone, Camera, Users, DollarSign, Share2, MessageSquare } from 'lucide-react';
 
 export const Team = () => {
   const coordinators = [
@@ -19,9 +19,9 @@ export const Team = () => {
       color: "text-google-blue",
       members: {
         lead: {
-          name: "Harsh Jain",
+          name: "Anshuman Ray",
           role: "Technical Team Lead",
-          image: "/Technical Team/Harsh Jain.jpeg",
+          image: "/Technical Team/Anshuman Ray.png",
           bio: "Backend Developer || promise I am not tech support",
           github: "https://github.com/Hj-codes",
           linkedin: "https://www.linkedin.com/in/hjworks17/",
@@ -29,29 +29,18 @@ export const Team = () => {
         },
         coLead: 
         {
-          name: "Utkarsh Jha",
-          role: "Technical Team Member",
-          image: "/Technical Team/UTKARSH JHA - TECH TEAM.png",
+          name: "Bindupautra Jyotibrat",
+          role: "Technical Team Co-Lead",
+          image: "/Technical Team/Bindupautra Jyotibrat.jpg",
+          bio: "AI & ML Enthusiast",
+          github: "https://github.com/jyotibrat",
+          linkedin: "https://linkedin.com/in/jyotibrat"
         },
         members: [
           {
-            name: "Bindupautra Jyotibrat",
-            role: "Technical Team Member",
-            image: "/Technical Team/Bindupautra Jyotibrat.jpg",
-            bio: "AI & ML Enthusiast",
-            github: "https://github.com/jyotibrat",
-            linkedin: "https://linkedin.com/in/jyotibrat"
-          },
-            {
           name: "Tushar Kumar Gupta",
           role: "Technical Team Member",
           image: "/Technical Team/TUSHAR KUMAR GUPTA - TECH TEAM.png",
-          },
-          
-          {
-            name: "Vishal Kumar Ojha",
-            role: "Technical Team Member",
-            image: "/Technical Team/VISHAL - TECH TEAM.png",
           },
           {
             name: "Omkar Sahay",
@@ -59,30 +48,15 @@ export const Team = () => {
             image: "/Technical Team/OMKAR TECH TEAM.png",
           },
           {
-            name: "Sourabh Joshi",
-            role: "Technical Team Member",
-            image: "/Technical Team/SOURBH - JOSHI - TECH TEA.png",
-          },
-          {
             name: "Shreyash Satadeve",
             role: "Technical Team Member",
             image: "/Technical Team/SHREYASH SATA- TECH TEAM.png",
-          },
-          {
-            name: "Adhiraj Singh Rawat",
-            role: "Technical Team Member",
-            image: "/Technical Team/ADHIRAJ - TECH TEAM.png",
           },
           {
             name: "Anshika Garg",
             role: "Technical Team Member",
             image: "/Technical Team/ANSHIKA - TECH TEAM.png",
           },
-          {
-            name: "Harshit Raj Ratan Singh",
-            role: "Technical Team Member",
-            image: "/Technical Team/HARSHIT - TECH TEAM.png",
-          }
         ]
       }
     },
@@ -152,11 +126,6 @@ export const Team = () => {
             instagram: "https://www.instagram.com/_venyarajput_?igsh=YzM3MWg1dGc4cjVr"
           },
           {
-            name: "Shivang Upadhyay",
-            role: "Event Management Team Member",
-            image: "/Event Management Team/SHIVANG UPADHYAY- 24MIM10082.png",
-          },
-          {
             name: "Shreya Raj",
             role: "Event Management Team Member",
             image: "/Event Management Team/Shreya Raj.png",
@@ -194,11 +163,6 @@ export const Team = () => {
             image: "/Event Management Team/Abhinav Kumar Mishra - EVENT MANGEMENT.png",
           },
           {
-            name: "Rishi Jha",
-            role: "Event Management Team Member",
-            image: "/Event Management Team/Rishi Jha-1- EVENT MANGEMENT.png",
-          },
-          {
             name: "Shreya Sharma",
             role: "Event Management Team Member",
             image: "/Event Management Team/Shreya Sharma - 1- EVENT MANGEMENT.png",
@@ -223,9 +187,9 @@ export const Team = () => {
           image: "/Content Team/Vaidehi Gupta CONTENT TEAM.png",
         },
         coLead: {
-          name: "Saanvi",
+          name: "Shreya Prakash",
           role: "Content Team Co-Lead",
-          image: "/Content Team/SAANVI - CONTENT.png",
+          image: "/Content Team/SHREYA PRAKSH - CONTENT TEAM.png",
         },
         members: [
           {
@@ -233,11 +197,6 @@ export const Team = () => {
             role: "Content Team Member",
             image: "/Content Team/SHREYA GUPTA - CONTENT TTEAM.png",
           },
-          {
-            name: "Shreya Prakash",
-            role: "Content Team Member",
-            image: "/Content Team/SHREYA PRAKSH - CONTENT TEAM.png",
-          }
         ]
       }
     },
@@ -251,20 +210,20 @@ export const Team = () => {
           image: "/Finance Team/TEJAS TANDON.png",
         },
         coLead: {
-          name: "Mishti Singh",
+          name: "Trisha Kapoor",
           role: "Finance Team Co-Lead",
-          image: "/Finance Team/Mishti Singh.png",
-          bio: "Tech Fanatic. Learning, building, and embracing the challenges.",
-          github: "https://github.com/mishti",
-          linkedin: "https://www.linkedin.com/in/mishti-singh-7b3a3b332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          instagram: "https://www.instagram.com/mishtiiii_s?igsh=YzVzeXJmY2s2ZXcw"
+          image: "/Finance Team/TRISHA KAPOOR.png",
+          bio: "Aspiring AI Engineer",
         },
         members: [
           {
-            name: "Trisha Kapoor",
+            name: "Mishti Singh",
             role: "Finance Team Member",
-            image: "/Finance Team/TRISHA KAPOOR.png",
-            bio: "Aspiring AI Engineer",
+            image: "/Finance Team/Mishti Singh.png",
+            bio: "Tech Fanatic. Learning, building, and embracing the challenges.",
+            github: "https://github.com/mishti",
+            linkedin: "https://www.linkedin.com/in/mishti-singh-7b3a3b332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram: "https://www.instagram.com/mishtiiii_s?igsh=YzVzeXJmY2s2ZXcw"
           }
         ]
       }

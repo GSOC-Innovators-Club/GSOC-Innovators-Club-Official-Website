@@ -1,5 +1,5 @@
-import { motion, useScroll, useTransform, useAnimation, AnimatePresence } from 'framer-motion';
-import { Code, Brain, Rocket, Github, Calendar, Users, BookOpen, Link as LinkIcon } from 'lucide-react';
+import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import { Rocket, Github, Calendar, Users, Link as LinkIcon } from 'lucide-react';
 import { SplineScene } from "@/components/ui/spline";
 import { useRef, useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
@@ -114,18 +114,16 @@ export const Home = () => {
 
   const upcomingEvents = [
     {
-      title: "TBA",
-      date: "April 13, 2025",
+      title: "Summer of CodeFest '25",
+      date: "April 13-14, 2025",
       description: "This event will have a Seminar and an innovative Hackathon. Learn how to prepare for GSOC and increase your chances of selection. Also compete in a hackathon with peers in building innovative projects.",
-      image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80"
+      image: "/Events/poster.jpg"
     },
     
   ];
 
   // Enhanced scroll animations
   const heroOpacity = useTransform(scrollYProgress, [0, 0.3], [1, 0]);
-  const heroScale = useTransform(scrollYProgress, [0, 0.3], [1, 0.95]);
-  const contentY = useTransform(scrollYProgress, [0, 0.3], [0, -50]);
 
   return (
     <div className="relative overflow-hidden" ref={containerRef}>
@@ -228,7 +226,7 @@ export const Home = () => {
                 { value: "40+", label: "Active Members", icon: Users },
                 { value: "1+", label: "Projects", icon: Github },
                 { value: "1+", label: "Events", icon: Calendar }
-              ].map((stat, index) => (
+              ].map((stat) => (
                 <motion.div
                   key={stat.label}
                   variants={{
@@ -260,61 +258,62 @@ export const Home = () => {
 
       {/* Upcoming Events Section */}
       <div className="bg-white py-24 flex justify-center">
-      <div className="max-w-4xl w-full px-6 text-center">
-        <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1 }}
-          className="mb-12"
-        >
-          <h2 className="text-4xl font-bold mb-4">Upcoming Events</h2>
-          <p className="text-xl text-gray-600">Join us in our upcoming workshops and events</p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 gap-8 mb-12">
-          {upcomingEvents.map((event, index) => (
-            <motion.div
-              key={event.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.2 }}
-              className="bg-white rounded-xl shadow-lg overflow-hidden"
-            >
-              <img
-                src={event.image}
-                alt={event.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{event.title}</h3>
-                <p className="text-google-blue mb-2">{event.date}</p>
-                <p className="text-gray-600 mb-4">{event.description}</p>
-                <Link
-                  to="/events"
-                  className="text-google-blue hover:text-google-blue/80 font-medium flex items-center justify-center gap-2"
-                >
-                  Learn More
-                  <LinkIcon className="w-4 h-4" />
-                </Link>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-
-        <div className="text-center">
-          <Link
-            to="/events"
-            className="inline-flex items-center gap-2 bg-google-blue text-white px-8 py-3 rounded-full hover:bg-google-blue/90 transition-colors"
+        <div className="max-w-4xl w-full px-6 text-center">
+          <motion.div 
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            className="mb-12"
           >
-            View All Events
-            <Calendar className="w-5 h-5" />
-          </Link>
+            <h2 className="text-4xl font-bold mb-4">Upcoming Events</h2>
+            <p className="text-xl text-gray-600">Join us in our upcoming workshops and events</p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 gap-8 mb-12">
+            {upcomingEvents.map((event, index) => (
+              <motion.div
+                key={event.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.2 }}
+                className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col"
+              >
+                <div className="overflow-hidden">
+                  <img
+                    src={event.image}
+                    alt={event.title}
+                    className="w-full object-cover"
+                  />
+                </div>
+                <div className="p-6 flex-grow">
+                  <h3 className="text-xl font-bold mb-2">{event.title}</h3>
+                  <p className="text-google-blue mb-2">{event.date}</p>
+                  <p className="text-gray-600 mb-4">{event.description}</p>
+                  <Link
+                    to="/events"
+                    className="text-google-blue hover:text-google-blue/80 font-medium flex items-center justify-center gap-2"
+                  >
+                    Learn More
+                    <LinkIcon className="w-4 h-4" />
+                  </Link>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <Link
+              to="/events"
+              className="inline-flex items-center gap-2 bg-google-blue text-white px-8 py-3 rounded-full hover:bg-google-blue/90 transition-colors"
+            >
+              View All Events
+              <Calendar className="w-5 h-5" />
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
-
 
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-google-blue to-google-green py-24">

@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Calendar, Clock, MapPin, X, Users, Link as LinkIcon } from 'lucide-react';
-import { useState } from 'react';
+import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal, useState } from 'react';
 
 // Event Modal Component
 const EventModal = ({ event, isOpen, onClose }) => {
@@ -22,15 +22,10 @@ const EventModal = ({ event, isOpen, onClose }) => {
           className="bg-white rounded-xl overflow-hidden w-full max-w-4xl max-h-[90vh] flex flex-col"
           onClick={e => e.stopPropagation()}
         >
-          <div className="relative">
-            <img
-              src={event.image}
-              alt={event.title}
-              className="w-full h-48 md:h-64 object-cover"
-            />
+          <div className="relative p-4">
             <button
               onClick={onClose}
-              className="absolute top-4 right-4 bg-white rounded-full p-2 hover:bg-gray-100 transition-colors shadow-md"
+              className="absolute top-4 right-4 bg-gray-100 rounded-full p-2 hover:bg-gray-200 transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
@@ -70,7 +65,7 @@ const EventModal = ({ event, isOpen, onClose }) => {
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Agenda</h4>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    {event.agenda.map((item, index) => (
+                    {event.agenda.map((item: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined, index: Key | null | undefined) => (
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
@@ -81,7 +76,7 @@ const EventModal = ({ event, isOpen, onClose }) => {
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Requirements</h4>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    {event.requirements.map((req, index) => (
+                    {event.requirements.map((req: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined, index: Key | null | undefined) => (
                       <li key={index}>{req}</li>
                     ))}
                   </ul>
@@ -121,14 +116,14 @@ export const Events = () => {
   const events = {
     upcoming: [
       {
-        title: "TBA",
-        date: "April 13, 2025",
-        time: "TBA",
-        location: "Offline",
+        title: "Summer of CodeFest '25",
+        date: "April 13-14, 2025",
+        time: "9:00 am",
+        location: "AB-2 Auditorium, VIT Bhopal University",
         description: "This event will have a Seminar and an innovative Hackathon. Learn how to prepare for GSOC and increase your chances of selection. Also compete in a hackathon with peers in building innovative projects.",
-        image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80",
+        image: "/Events/poster.jpg",
         capacity: "TBA",
-        registrationLink: "https://example.com/register/gsoc-event", // Add your registration link here
+        registrationLink: "https://unstop.com/o/X7Ggn4t?lb=ue4cv51z", // Add your registration link here
         agenda: [
           "Introduction to GSOC",
           "Introduction to Github",
@@ -146,7 +141,7 @@ export const Events = () => {
     past: []
   };
 
-  const EventCard = ({ event, isPast = false }) => (
+  const EventCard = ({ event }) => (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -191,7 +186,7 @@ export const Events = () => {
     <div className="mb-16">
       <h2 className="text-2xl font-bold mb-8">{title}</h2>
       <div className="space-y-8">
-        {events.map((event, index) => (
+        {events.map((event: unknown) => (
           <EventCard key={event.title} event={event} isPast={isPast} />
         ))}
       </div>

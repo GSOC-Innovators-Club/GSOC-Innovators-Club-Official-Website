@@ -117,7 +117,7 @@ export const Home = () => {
       title: "Summer of CodeFest '25",
       date: "April 13-14, 2025",
       description: "This event will have a Seminar and an innovative Hackathon. Learn how to prepare for GSOC and increase your chances of selection. Also compete in a hackathon with peers in building innovative projects.",
-      image: "/Events/poster.jpg"
+      image: "/Events/poster.png"
     },
     
   ];

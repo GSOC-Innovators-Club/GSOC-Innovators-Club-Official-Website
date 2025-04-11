@@ -121,7 +121,7 @@ export const Events = () => {
         time: "9:00 am",
         location: "AB-2 Auditorium, VIT Bhopal University",
         description: "This event will have a Seminar and an innovative Hackathon. Learn how to prepare for GSOC and increase your chances of selection. Also compete in a hackathon with peers in building innovative projects.",
-        image: "/Events/poster.jpg",
+        image: "/Events/poster.png",
         capacity: "TBA",
         registrationLink: "https://unstop.com/o/X7Ggn4t?lb=ue4cv51z", // Add your registration link here
         agenda: [

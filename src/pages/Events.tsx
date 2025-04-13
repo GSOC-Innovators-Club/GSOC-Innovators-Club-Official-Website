@@ -115,6 +115,8 @@ export const Events = () => {
   
   const events = {
     upcoming: [
+    ],
+    ongoing: [
       {
         title: "Summer of CodeFest '25",
         date: "April 13-14, 2025",
@@ -122,7 +124,7 @@ export const Events = () => {
         location: "AB-2 Auditorium, VIT Bhopal University",
         description: "This event will have a Seminar and an innovative Hackathon. Learn how to prepare for GSOC and increase your chances of selection. Also compete in a hackathon with peers in building innovative projects.",
         image: "/Events/poster.png",
-        capacity: "TBA",
+        capacity: "200",
         registrationLink: "https://unstop.com/o/X7Ggn4t?lb=ue4cv51z", // Add your registration link here
         agenda: [
           "Introduction to GSOC",
@@ -137,7 +139,6 @@ export const Events = () => {
         ]
       },
     ],
-    ongoing: [],
     past: []
   };
 

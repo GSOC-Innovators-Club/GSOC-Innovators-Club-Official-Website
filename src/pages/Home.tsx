@@ -57,7 +57,7 @@ const CommunityModal = ({ isOpen, onClose }) => {
     { 
       name: 'WhatsApp',
       icon: 'whatsapp',
-      url: 'https://chat.whatsapp.com/gsocinnovators',
+      url: 'https://chat.whatsapp.com/LLUSHOYExlnHLdIfmAjrJu',
       color: 'bg-green-500'
     }
   ];

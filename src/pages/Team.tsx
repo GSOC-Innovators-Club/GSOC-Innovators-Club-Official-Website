@@ -19,13 +19,10 @@ export const Team = () => {
       color: "text-google-blue",
       members: {
         lead: {
-          name: "Anshuman Ray",
+          name: "Ayushman Ray",
           role: "Technical Team Lead",
           image: "/Technical Team/Anshuman Ray.png",
-          bio: "Backend Developer || promise I am not tech support",
-          github: "https://github.com/Hj-codes",
-          linkedin: "https://www.linkedin.com/in/hjworks17/",
-          instagram: "https://www.instagram.com/harshjain3190?igsh=MWtxaDBiMWRiZXVxcQ=="
+          linkedin: "https://www.linkedin.com/in/ayushman-ray-16b265251/",
         },
         coLead: 
         {
@@ -34,9 +31,18 @@ export const Team = () => {
           image: "/Technical Team/Bindupautra Jyotibrat.jpg",
           bio: "AI & ML Enthusiast",
           github: "https://github.com/jyotibrat",
-          linkedin: "https://linkedin.com/in/jyotibrat"
+          linkedin: "https://linkedin.com/in/jyotibrat",
+          
         },
         members: [
+          {
+            name: "Harsh Jain",
+            role: "Technical Team Member",
+            image: "/Technical Team/Harsh Jain.jpeg",
+            bio: "Backend Developer || promise I am not tech support",
+            github: "https://github.com/Hj-codes",
+            linkedin: "https://www.linkedin.com/in/hjworks17/"
+          },
           {
           name: "Tushar Kumar Gupta",
           role: "Technical Team Member",

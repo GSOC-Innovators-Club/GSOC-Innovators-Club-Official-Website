@@ -266,7 +266,7 @@ export const Home = () => {
             transition={{ duration: 1 }}
             className="mb-12"
           >
-            <h2 className="text-4xl font-bold mb-4">Ongoing Events</h2>
+            <h2 className="text-4xl font-bold mb-4">Past Events</h2>
             <p className="text-xl text-gray-600">Join us in Summer of CodeFest '25</p>
           </motion.div>
 

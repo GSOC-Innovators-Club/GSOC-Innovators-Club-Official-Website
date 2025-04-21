@@ -93,14 +93,14 @@ const EventModal = ({ event, isOpen, onClose }) => {
                 rel="noopener noreferrer"
                 className="inline-block w-full md:w-auto bg-google-blue text-white px-6 py-2 rounded-lg hover:bg-google-blue/90 transition text-center"
               >
-                Register Now
+                Registrations Closed
               </a>
             ) : (
               <button
                 disabled
                 className="w-full md:w-auto bg-gray-400 text-white px-6 py-2 rounded-lg cursor-not-allowed"
               >
-                Registration Coming Soon
+                Registration Closed
               </button>
             )}
           </div>
@@ -114,9 +114,9 @@ export const Events = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
   
   const events = {
-    upcoming: [
-    ],
-    ongoing: [
+    upcoming: [],
+    ongoing: [],
+    past: [
       {
         title: "Summer of CodeFest '25",
         date: "April 13-14, 2025",
@@ -125,7 +125,7 @@ export const Events = () => {
         description: "This event will have a Seminar and an innovative Hackathon. Learn how to prepare for GSOC and increase your chances of selection. Also compete in a hackathon with peers in building innovative projects.",
         image: "/Events/poster.png",
         capacity: "200",
-        registrationLink: "https://unstop.com/o/X7Ggn4t?lb=ue4cv51z", // Add your registration link here
+        registrationLink: "", // Add your registration link here
         agenda: [
           "Introduction to GSOC",
           "Introduction to Github",
@@ -138,8 +138,7 @@ export const Events = () => {
           "Laptop with internet connection"
         ]
       },
-    ],
-    past: []
+    ]
   };
 
   const EventCard = ({ event }) => (

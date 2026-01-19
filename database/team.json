@@ -139,11 +139,13 @@
           "image": "/Content Team/SHREYA PRAKSH - CONTENT TEAM.png"
         },
         "coLead": {
-          "name": "Shreyansh Srivastava",
-          "role": "Content Team Co-Lead",
-          "image": "/Content Team/Content - SHREYANSH SRIVASTAVA.jpg"
-        },
+          },
         "members": [
+          {
+            "name": "Shreyansh Srivastava",
+            "role": "Content Team Co-Lead",
+            "image": "/Content Team/Content - SHREYANSH SRIVASTAVA.jpg"
+          },
           { 
             "name": "Tanisha Sharma", 
             "role": "Content Team Member",
@@ -204,12 +206,9 @@
       "color": "text-pink-500",
       "members": {
         "lead": {
-          "name": "Yash Goyal",
+          "name": "Jiya Arora",
           "role": "Social Media and Photograpy Team Lead",
-          "image": "/Social Media and Photography Team/YASH GOYAL.png",
-          "bio": "Passionate photographer capturing moments that tell a story.",
-          "linkedin": "https://www.linkedin.com/in/yash-goyal-786723333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          "instagram": "https://www.instagram.com/clicks_for_memories_?igsh=enR3aW9yeW1xOXRx"
+          "image": "/Social Media and Photography Team/Social - JIYA ARORA.png"
         },
         "coLead": {
           "name": "Ankita Pal",
@@ -230,11 +229,6 @@
             "name": "Sujal Gupta", 
             "role": "Social Media and Photography Team Member",
             "image": "/Social Media and Photography Team/Social - SUJAL GUPTA.jpg"
-          },
-          { 
-            "name": "Jiya Arora", 
-            "role": "Social Media and Photography Team Member",
-            "image": "/Social Media and Photography Team/Social - JIYA ARORA.png"
           }
         ]
       }

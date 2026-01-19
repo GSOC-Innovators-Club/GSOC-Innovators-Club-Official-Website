@@ -1,0 +1,428 @@
+{
+  
+  "teams": {
+    "Technical Team": {
+      "color": "text-google-blue",
+      "members": {
+        "lead": {
+          "name": "Bindupautra Jyotibrat",
+          "role": "Technical Team Lead",
+          "image": "/Technical Team/Bindupautra Jyotibrat.jpg",
+          "bio": "AI & ML Enthusiast",
+          "github": "https://github.com/jyotibrat",
+          "linkedin": "https://linkedin.com/in/jyotibrat"
+        },
+        "coLead": null,
+        "members": [
+          { 
+            "name": "Rishi Dewagan", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - RISHI DEWANGAN.png"
+          },
+          { 
+            "name": "Abhishek", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - ABHISHEK.jpg"
+          },
+          { 
+            "name": "Varun Kushwah", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - VARUN KUSWAH.jpg" 
+          },
+          { 
+            "name": "Pari Goel", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - PARI GOEL.jpeg" 
+          },
+          { 
+            "name": "Manvendra Vikram Singh", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - MANVENDRA VIKRAM SINGH.jpg" 
+          },
+          { 
+            "name": "Nikhil Patil", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - Nikhil Patil.jpg" 
+          },
+          { 
+            "name": "Fatema Saify", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - FATEMA SAIFY.JPG" 
+          },
+          { 
+            "name": "Aniket Kumar", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - ANIKET KUMAR.jpg" 
+          },
+          { 
+            "name": "Utkarsh Singh", 
+            "role": "Technical Team Member",
+            "image": "/Technical Team/Tech Team - UTKARSH SINGH.jpg" 
+          }
+        ]
+      }
+    },
+    
+    "Event Management Team": {
+      "color": "text-google-green",
+      "members": {
+        "lead": {
+          "name": "Shraddha Sinha",
+          "role": "Event Management Team Lead",
+          "bio": "CSE student",
+          "image": "/Event Management Team/Shraddha Sinha 1- EVENT MANGEMENT.png"
+        },
+        "coLead": {
+          "name": "Ananya Sharma",
+          "role": "Event Management Team Co-Lead",
+          "image": "/Event Management Team/ANANYA SHARMA - EVENT MANGEMENT.png"
+        },
+        "members": [
+          { 
+            "name": "Adhya Sparsh", 
+            "role": "Event Management Team Member",
+            "bio": "Tech Enthusiast & Innovative Problem Solver",
+            "image": "/Event Management Team/Adhya Sparsh- event management.png"
+          },
+          { 
+            "name": "Abhinav Kumar Mishra", 
+            "role": "Event Management Team Member",
+            "image": "/Event Management Team/Abhinav Kumar Mishra - EVENT MANGEMENT.png" 
+          },
+          { 
+            "name": "Venya Rajput", 
+            "role": "Event Management Team Member",
+            "bio": "AI & ML Developer",
+            "image": "/Event Management Team/Venya Rajput  - EVENT MANGEMENT.png",
+            "instagram": "https://www.instagram.com/_venyarajput_?igsh=YzM3MWg1dGc4cjVr"
+          },
+          { 
+            "name": "Aashish Prasad", 
+            "role": "Event Management Team Member",
+            "image": "/Event Management Team/Event - AASHISH PRASAD.jpg" 
+          },
+          { 
+            "name": "Rishi Singh Shandilya", 
+            "role": "Event Management Team Member",
+            "image": "/Event Management Team/Event - Rishi Singh Shandilya.jpg" 
+          },
+          { 
+            "name": "Aditi Jha", 
+            "role": "Event Management Team Member",
+            "image": "/Event Management Team/Event - Aditi Jha.jpg" 
+          },
+          { 
+            "name": "Alankrit Sajwan", 
+            "role": "Event Management Team Member",
+            "image": "/Event Management Team/Event - Alankrit Sajwan.jpg" 
+          },
+          { 
+            "name": "Aman Mishra", 
+            "role": "Event Management Team Member",
+            "image": "/Event Management Team/Event - Aman Mishra.png" 
+          },
+          { 
+            "name": "Manasvi Shrivastava", 
+            "role": "Event Management Team Member",
+            "image": "/Event Management Team/Event - MANASVI SHRIVASTAVA.jpg" 
+          }
+        ]
+      }
+    },
+
+    "Content Team": {
+      "color": "text-purple-500",
+      "members": {
+        "lead": {
+          "name": "Shreya Prakash",
+          "role": "Content Team Lead",
+          "image": "/Content Team/SHREYA PRAKSH - CONTENT TEAM.png"
+        },
+        "coLead": {
+          "name": "Shreyansh Srivastava",
+          "role": "Content Team Co-Lead",
+          "image": "/Content Team/Content - SHREYANSH SRIVASTAVA.jpg"
+        },
+        "members": [
+          { 
+            "name": "Tanisha Sharma", 
+            "role": "Content Team Member",
+            "image": "/Content Team/Content - TANISHA SHARMA.jpg" 
+          },
+          { 
+            "name": "Kanishka Arora", 
+            "role": "Content Team Member",
+            "image": "/Content Team/Content - KANISHKA ARORA.png" 
+          },
+          { 
+            "name": "Riddhi Garg", 
+            "role": "Content Team Member",
+            "image": "/Content Team/Content - Riddhi Garg.jpg" 
+          }
+        ]
+      }
+    },
+
+    "Finance Team": {
+      "color": "text-emerald-500",
+      "members": {
+        "lead": {
+          "name": "Tejas Tandon",
+          "role": "Finance Team Lead",
+          "image": "/Finance Team/TEJAS TANDON.png"
+        },
+        "coLead": {
+          "name": "Mishti Singh",
+          "role": "Finance Team Co-Lead",
+          "image": "/Finance Team/Mishti Singh.png",
+          "bio": "Tech Fanatic. Learning, building, and embracing the challenges.",
+          "linkedin": "https://www.linkedin.com/in/mishti-singh-7b3a3b332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "github": "https://github.com/mishti",
+          "instagram": "https://www.instagram.com/mishtiiii_s?igsh=YzVzeXJmY2s2ZXcw"
+        },
+        "members": [
+          { 
+            "name": "Joydeep Samanta", 
+            "role": "Finance Team Member",
+            "image": "/Finance Team/Finance - JOYDEEP SAMANTA.jpg"
+          },
+          { 
+            "name": "Parth Mulik",
+            "role": "Finance Team Member",
+            "image": "/Finance Team/Finance - PARTH MULIK.jpg" 
+          },
+          { 
+            "name": "Rohit Dubey", 
+            "role": "Finance Team Member",
+            "image": "/Finance Team/Finance - Rohit Dubey.jpg" 
+          }
+        ]
+      }
+    },
+
+    "Social Media and Photography Team": {
+      "color": "text-pink-500",
+      "members": {
+        "lead": {
+          "name": "Yash Goyal",
+          "role": "Social Media and Photograpy Team Lead",
+          "image": "/Social Media and Photography Team/YASH GOYAL.png",
+          "bio": "Passionate photographer capturing moments that tell a story.",
+          "linkedin": "https://www.linkedin.com/in/yash-goyal-786723333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "instagram": "https://www.instagram.com/clicks_for_memories_?igsh=enR3aW9yeW1xOXRx"
+        },
+        "coLead": {
+          "name": "Ankita Pal",
+          "role": "Social Media and Photograpy Team Co-Lead",
+          "image": "/Social Media and Photography Team/Social - ANKITA PAL.jpeg"
+        },
+        "members": [
+          { 
+            "name": "Shashwat Roy", 
+            "role": "Social Media and Photography Team Member",
+            "image": "/Social Media and Photography Team/SHASHWAT ROY.png",
+            "bio": "Pixel perfectionist",
+            "linkedin": "https://www.linkedin.com/in/shashwat-roy-955308315/",
+            "github": "https://github.com/shashwat",
+            "instagram": "https://www.instagram.com/shasharchives/" 
+          },
+          { 
+            "name": "Sujal Gupta", 
+            "role": "Social Media and Photography Team Member",
+            "image": "/Social Media and Photography Team/Social - SUJAL GUPTA.jpg"
+          },
+          { 
+            "name": "Jiya Arora", 
+            "role": "Social Media and Photography Team Member",
+            "image": "/Social Media and Photography Team/Social - JIYA ARORA.png"
+          }
+        ]
+      }
+    },
+
+    "PR and Outreach Team": {
+      "color": "text-yellow-500",
+      "members": {
+        "lead": {
+          "name": "Atiksh Prasad",
+          "role": "PR & Outreach Team Lead",
+          "image": "/PR and Outreach Team/PR - ATIKSH PRASAD.png"
+        },
+        "coLead": {
+          "name": "Akshat Pradeep Pillai",
+          "role": "PR & Outreach Team Co-Lead",
+          "image": "/PR and Outreach Team/PR - AKSHAT PRADEEP PILLAI.jpg"
+        },
+        "members": [
+          {
+            "name": "Saara Magar",
+            "role": "PR & Outreach Team Member",
+            "image": "/PR and Outreach Team/SAARA MAGAR.png"
+          },
+          { 
+            "name": "Allyna Khan", 
+            "role": "PR & Outreach Team Member",
+            "image": "/PR and Outreach Team/PR - ALLYNA KHAN.jpeg" 
+          }
+        ]
+      }
+    },
+
+    "Administration": {
+      "color": "text-gray-700",
+      "members": {
+        "lead": { 
+          "name": "Aarushi Saki", 
+          "role": "President",
+          "image": "/Administration/AARUSHI SAKI.png"
+        },
+        "coLead": { 
+          "name": "Ashish Raj", 
+          "role": "Vice President",
+          "image": "/Administration/ASHISH.png",
+          "bio": "Website Design and Development",
+          "linkedin": "https://www.linkedin.com/in/ashish-raj-504760319/"
+        },
+        "members": [
+          { 
+            "name": "Apoorva Singh", 
+            "role": "Assistant General Secretary",
+            "image": "/Administration/Apoorva Singh - EVENT MANGEMENT.png"
+          },
+          { 
+            "name": "Raunit Kumar Singh", 
+            "role": "Secretary",
+            "image": "/Administration/RAUNIT.png"
+          }
+        ]
+      }
+    },
+
+    "Design Team": {
+      "color": "text-pink-400",
+      "members": {
+        "lead": { 
+          "name": "Diya Tanwani", 
+          "role": "Design Team Lead",
+          "image": "/Design Team/Diya tanwani - event mangement.png"
+        },
+        "coLead": { 
+          "name": "Vismay Jaismal", 
+          "role": "Design Team Co-Lead",
+          "image": "/Design Team/Design - VISMAY JAISWAL.jpg" 
+        },
+        "members": [
+          { 
+            "name": "Varsha Lavania", 
+            "role": "Design Team Member",
+            "image": "/Design Team/Design - VARSHA LAVANIA.jpg" 
+          },
+          { 
+            "name": "Deeksha Kaushal", 
+            "role": "Design Team Member",
+            "image": "/Design Team/Design - Deeksha Kaushal.jpg" 
+          }
+        ]
+      }
+    },
+
+    "Research Team": {
+      "color": "text-emerald-600",
+      "members": {
+        "lead": { 
+          "name": "Bindupautra Jyotibrat",
+          "role": "Research Team Lead",
+          "image": "/Technical Team/Bindupautra Jyotibrat.jpg",
+          "bio": "AI & ML Enthusiast",
+          "github": "https://github.com/jyotibrat",
+          "linkedin": "https://linkedin.com/in/jyotibrat"
+        },
+        "coLead": { 
+          "name": "Arun Chaudhary", 
+          "role": "Research Team Co-Lead",
+          "image": "/Research Team/Research - Arun Chaudhary.png"
+        },
+        "members": [
+          {
+            "name": "Vedant Jain", 
+            "role": "Research Team Member",
+            "image": "/Research Team/" 
+          },
+          { 
+            "name": "Tanisha Deshpande", 
+            "role": "Research Team Member",
+            "image": "/Research Team/Research Team - Tanisha Deshpande.jpg" 
+          },
+          { 
+            "name": "Aryan Kumar", 
+            "role": "Research Team Member",
+            "image": "/Research Team/Research - ARYAN KUMAR.jpg" 
+          }
+        ]
+      }
+    },
+
+    "Human Resource Team": {
+      "color": "text-indigo-500",
+      "members": {
+        "lead": { 
+          "name": "Shreya Raj", 
+          "role": "Human Resource Lead",
+          "image": "/Human Resource Team/Shreya Raj.png",
+          "bio": "Web Developer",
+          "linkedin": "https://www.linkedin.com/in/shreya-raj-9313b0284/"
+        },
+        "coLead": null,
+        "members": []
+      }
+    },
+
+    "Founding Members": {
+      "color": "text-indigo-600",
+      "members": {
+        "lead": null,
+        "coLead": null,
+        "members": [
+          { 
+            "name": "Ankur Prajapati", 
+            "role": "Founding Member", 
+            "image": "/Founding Members/Ankur Prajapati.jpg",
+            "bio": "Aspiring Tech Founder",
+            "linkedin": "https://www.linkedin.com/in/ankur-prajapati-a38b5a251/"
+          },
+          {
+            "name": "Himanshu Gupta", 
+            "role": "Founding Member",
+            "image": "/Founding Members/Himanshu Gupta.jpg",
+            "bio": "Creating unforgettable experiences!",
+            "github": "https://github.com/himansh-you",
+            "linkedin": "https://www.linkedin.com/in/himanshyou/"
+          },
+          {
+            "name": "Harsh Jain", 
+            "role": "Founding Member",
+            "image": "/Founding Members/Harsh Jain.jpeg",
+            "bio": "Backend Developer || promise I am not tech support",
+            "github": "https://github.com/Hj-codes",
+            "linkedin": "https://www.linkedin.com/in/hjworks17/"
+          },
+          { 
+            "name": "Ayushman Ray", 
+            "role": "Founding Member",
+            "image": "/Founding Members/Anshuman Ray.png",
+            "linkedin": "https://www.linkedin.com/in/ayushman-ray-16b265251/"
+          },
+          { 
+            "name": "Deepesh Kabra", 
+            "role": "Founding Member",
+            "image": "/Founding Members/DEEPESH.png",
+            "bio": "Constantly growing, endlessly curious.",
+            "github": "https://github.com/Deepeshkabra",
+            "linkedin": "https://www.linkedin.com/in/deepesh-kabra-0aa027252/",
+            "instagram": "https://www.instagram.com/deepesh_kabra/"
+          }
+        ]
+      }
+    }
+  }
+}

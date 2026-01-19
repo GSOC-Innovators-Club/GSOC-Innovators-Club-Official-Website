@@ -92,11 +92,13 @@ export const Navbar = () => {
 
             {/* Right Logo */}
             <div className="ml-4 flex items-center">
-              <img 
-                src="/Logos/VITB logo.png" // Replace with your actual logo path
-                alt="Additional Logo"
-                className="w-15 h-14 full" // Adjust size as needed
-              />
+              <Link to="https://vitbhopal.ac.in/" target="_blank" rel="noopener noreferrer">
+                <img 
+                  src="/Logos/VIT logo.png" // Replace with your actual logo path
+                  alt="Additional Logo"
+                  className="w-15 h-14 full" // Adjust size as needed
+                />
+              </Link>
             </div>
           </div>
 

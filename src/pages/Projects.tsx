@@ -1,10 +1,48 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Star } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export const Projects = () => {
+  const [projectStars, setProjectStars] = useState<{[key: string]: number}>({});
+
   const projects = [
-    
+    {
+      title: "Talk Space",
+      image: "/Projects/talk space.png",
+      description: "Talk Space is a video calling application built with Go, TypeScript, and Kotlin that allows users to connect with random people online for spontaneous conversations, similar to Omegle. It provides a platform for meeting new people virtually through video calls.",
+      tech: ["Go", "TypeScript", "Kotlin"],
+      github: "https://github.com/GSOC-Innovators-Club/Talk-Space",
+      demo: "" // Empty demo for now
+    }
   ];
+
+  const fetchStars = async (githubUrl: string) => {
+    try {
+      const urlParts = githubUrl.split('/');
+      const owner = urlParts[urlParts.length - 2];
+      const repo = urlParts[urlParts.length - 1];
+      
+      const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
+      if (response.ok) {
+        const data = await response.json();
+        setProjectStars(prev => ({ ...prev, [githubUrl]: data.stargazers_count }));
+      }
+    } catch (error) {
+      console.error('Error fetching stars:', error);
+    }
+  };
+
+  useEffect(() => {
+    projects.forEach(project => {
+      if (project.github) {
+        fetchStars(project.github);
+      }
+    });
+  }, []);
+
+  const getStars = (githubUrl: string) => {
+    return projectStars[githubUrl] ?? 0;
+  };
 
   return (
     <div className="min-h-screen pt-24 bg-gray-50">
@@ -52,20 +90,26 @@ export const Projects = () => {
                   <div className="flex items-center space-x-4">
                     <a
                       href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-gray-600 hover:text-gray-900 flex items-center"
                     >
                       <Github className="w-5 h-5" />
                     </a>
-                    <a
-                      href={project.demo}
-                      className="text-gray-600 hover:text-gray-900 flex items-center"
-                    >
-                      <ExternalLink className="w-5 h-5" />
-                    </a>
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 hover:text-gray-900 flex items-center"
+                      >
+                        <ExternalLink className="w-5 h-5" />
+                      </a>
+                    )}
                   </div>
                   <div className="flex items-center text-yellow-500">
                     <Star className="w-5 h-5 mr-1" />
-                    <span>{project.stars}</span>
+                    <span>{getStars(project.github)}</span>
                   </div>
                 </div>
               </div>
